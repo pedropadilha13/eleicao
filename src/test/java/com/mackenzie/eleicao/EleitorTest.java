@@ -14,9 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class EleitorTest {
     
-    public EleitorTest() {
-        System.out.println("Running tests...");
-    }
+    public EleitorTest() {}
     
     Eleitor objEleitor = new Eleitor();
 
@@ -58,7 +56,7 @@ public class EleitorTest {
 
     @Test
     public void testWebhook() {
-        System.out.println("Teste de commit -> webhook");
+        System.out.println("Testando webhook automático");
     }
     
 }
