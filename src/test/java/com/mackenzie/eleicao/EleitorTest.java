@@ -51,12 +51,7 @@ public class EleitorTest {
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(18));
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(19));
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(68));
-        assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(69));
-    }
-
-    @Test
-    public void testWebhook() {
-        System.out.println("Testando webhook automático");
+        assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(80));
     }
     
 }
