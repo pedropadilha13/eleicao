@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EleitorTest {
     
     public EleitorTest() {
+        System.out.println("Running tests...");
     }
     
     Eleitor objEleitor = new Eleitor();
@@ -53,6 +54,11 @@ public class EleitorTest {
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(19));
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(68));
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(69));
+    }
+
+    @Test
+    public void testWebhook() {
+        System.out.println("Teste de commit -> webhook");
     }
     
 }
